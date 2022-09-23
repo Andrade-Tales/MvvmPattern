@@ -25,7 +25,7 @@ interface RetrofitService {
 
         }
 
-        fun getInstance(): RetrofitService {
+        fun getInstance() : RetrofitService {
             return retrofitService
         }
     }

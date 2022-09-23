@@ -1,6 +1,6 @@
 package com.lista.mvvmpattern.models
 
-class Live(
+ data class Live(
 
     var title: String,
     var author: String,

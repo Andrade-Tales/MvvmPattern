@@ -12,8 +12,8 @@ import com.lista.mvvmpattern.adapters.MainAdapter
 import com.lista.mvvmpattern.databinding.ActivityMainBinding
 import com.lista.mvvmpattern.repositories.MainRepository
 import com.lista.mvvmpattern.rest.RetrofitService
-import com.lista.mvvmpattern.viewmodel.main.MainViewModel
-import com.lista.mvvmpattern.viewmodel.main.MainViewModelFactory
+import com.lista.mvvmpattern.viewmodel.MainViewModel
+import com.lista.mvvmpattern.viewmodel.MainViewModelFactory
 
 class MainActivity : AppCompatActivity() {
 

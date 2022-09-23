@@ -10,8 +10,7 @@ import com.lista.mvvmpattern.databinding.ResItemLiveBinding
 import com.lista.mvvmpattern.models.Live
 
 
-class MainAdapter(private val onItemClicked: (Live) -> Unit) :
-    RecyclerView.Adapter<MainViewHolder>() {
+class MainAdapter(private val onItemClicked: (Live) -> Unit) : RecyclerView.Adapter<MainViewHolder>() {
 
     private var lives = mutableListOf<Live>()
 

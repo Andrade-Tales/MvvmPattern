@@ -1,4 +1,4 @@
-package com.lista.mvvmpattern.viewmodel.main
+package com.lista.mvvmpattern.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -7,7 +7,6 @@ import com.lista.mvvmpattern.repositories.MainRepository
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-
 
 class MainViewModel constructor(private val repository: MainRepository) : ViewModel() {
 
